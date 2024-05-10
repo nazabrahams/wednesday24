@@ -1,0 +1,68 @@
+* {
+    background-color:#2C73EF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.nav{
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav ul li {
+    display: inline;
+ 
+}
+
+ul li {
+    margin: 0 100px;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+table{
+    margin: auto;
+}
+
+tr,td, th {
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: white 2px solid;
+    
+}
+
+img {
+    border-radius: 7ch;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav a:hover{
+    background-color: white;
+  }
+  
+.nav{
+    border-bottom: 2px dotted white;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
